@@ -9,8 +9,8 @@ The code is split into following sections:
 * Assigning column names to data frames.
 * A loop to match column names containing "std()" and "mean()" in features.txt and store the result in *filtered\_features\_data* variable.
 * Get subset of *training* and *test* data using filtered column names.
-* Combine subject, activity and reading using cbind.
-* Combine training and test data using rbind.
+* Combine subject, activity and readings horizontally using cbind.
+* Combine training and test data vertically using rbind.
 * Calculate average of each variable for each activity and each subject using ddply function in plyr package.
 * Writing final data to output.txt.
 
