@@ -7,7 +7,7 @@ The code is split into following sections:
 * Variables for storing file paths
 * Read data from files load them into data frames using read.table.
 * Assigning column names to data frames.
-* A loop to match columns containing "std()" and "mean()" and store the result in *filtered\_features\_data* variable.
+* A loop to match column names containing "std()" and "mean()" in features.txt and store the result in *filtered\_features\_data* variable.
 * Get subset of *training* and *test* data using filtered column names.
 * Combine subject, activity and reading using cbind.
 * Combine training and test data using rbind.
