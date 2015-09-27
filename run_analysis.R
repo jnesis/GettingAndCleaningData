@@ -44,7 +44,7 @@ run_analysis <- function(directory) {
   # calculate average of each variable and each subject
   library(plyr)
   cdata <- ddply(combined_data, c("subject"), colMeans)
-  cdata
+  # cdata
   
   write.table(cdata, file = output_file, row.name=FALSE)
 }
